@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <link rel="icon" type="image/png" href="Images/favicon.ico" sizes="16x16">
+        <meta charset="utf-8">
+        <meta name="description" content="Mapped Maps shows differences in GPS based digital maps">
+        <meta name="keywords" content="Maps, Borders, Countries, Geography">  
+        <title>Mapped Maps</title>
+        <style>
+            body{
+                font-family: sans-serif;
+                margin: 10px;
+                background-color: lightgreen;}       
+            main{
+                margin: 15px;
+                padding: 20px;
+                border: solid black;
+                background-color: whitesmoke;
+                min-height: 500px;}
+            header{
+                position: relative;
+                top: 40%;
+                font-style: italic;
+                text-align: center;}
+            label{
+                float: left;
+                width: 112px;
+                padding-right: 10px;
+                text-align: right;}
+            input{
+                margin-left: 1em;
+                margin-bottom: .5em;
+                width: 220px;}
+            input[type="radio"]{width: 10px;}
+            textarea{
+                height: 5em;
+                width: 25em;
+                font-family: sans-serif;}
+            input[type="checkbox"]{width: 15px;}
+            input[type="submit"]{
+                margin-left: 138px;
+                margin-top: .5em;
+                width: 8em;
+                background-color: orange;
+                border: 2px solid black;}
+            input[type="reset"]{
+                margin-left: 138px;
+                margin-top: .5em;
+                width: 8em;
+                background-color: orange;
+                border: 2px solid black;}
+            footer{
+                font-size: 15px;
+                text-align: right;}
+            .required
+{
+    color: red;
+}
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <p>Any queries or feedback please complete and submit</p></header>     
+        <main>
+            <section>
+            <h3>Please enter the following information to catch updates on the website: </h3>
+                <form action=" http://year1.ccpdev.me/FormTest.php" method="get">
+                
+                <label for="first_name">First name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required>
+                <br>
+                <label for="last_name">Last name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" autofocus required>
+                <br>
+                <label for="email">Email:<span class="required" placeholder="johndoe@example.com">*</span></label>
+                <input type="text" name="email" id="email" autofocus required>
+                <br>
+                Gender:<br>
+                <input type="radio" name="gender" value="male">
+                Male<br>
+                <input type="radio" name="gender" value="female">
+                Female<br>
+                <input type="radio" name="gender" value="other">
+                Other<br>
+                <br>
+                 Heard of us:<br>
+                <fieldset>
+                    <input type="checkbox" id="internet" name="internet" value="internet" checked>Internet
+                    <br>
+                    <input type="checkbox" id="paper" name="paper" value="paper" checked>Paper
+                    <br>
+                    <input type="checkbox" id="friend" name="friend" value="friend" checked>friend
+                    <br>
+                </fieldset>
+                Comments:<br>
+                <textarea name="comments" placeholder="If you have any comments, please enter them here."></textarea>
+                <br>
+                
+               <input type="submit" name="submit" ip="button" value="submit">
+                <input type="reset" name="reset" ip="button" value="reset">
+               <br>
+               </form>
+                <br>  
+            </section>
+            <section>
+                <p>* indicates the field is required</p>
+                <a href="Home_page.html">Return</a>
+            </section>
+        </main> 
+        <footer>&#64;Copyright 2019</footer>
+    </body>
+</html>

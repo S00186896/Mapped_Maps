@@ -1,0 +1,62 @@
+
+
+header{
+    color: greenyellow border solid black;
+    font-size: 30px;
+    height: 180px;
+    font-family: monospace;
+    text-align: center;
+    background-image: url(Images/Google_map_image.jpg);
+    background-color: limegreen;
+}
+ul li
+{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    padding;20px;
+    margin: 20px;
+    border: px solid black;
+    background-color: lightgreen;
+    transition: 0.2s ease;
+}
+ul li a{
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+}
+ol li a{
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+}
+li
+{
+    text-decoration: none;
+}
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+h3{
+    font-family: monospace;
+    font-size: 25px;
+    color: limegreen;   
+}
+footer{
+    font-size: 15px;
+    text-align: right;
+}
+nav ul li:hover{background-color: skyblue;}
+
+nav ol li:hover{background-color: skyblue;}
+table{
+    align-self: stretch;
+    background-color: lightgreen;
+    width: 100%;
+}
